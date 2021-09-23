@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #616161;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  float: right;
+}
+
+nav ul li:first-child {
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding-top: 60px;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.questionsscreen {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 100px;
+  display: none;
+}
+
+.gameover {
+  display: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: grey;
+}
+
+.buttonquestions button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+}
+
+.buttonquestions button:hover {
+  color: grey;
+}
+
+
+form {
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.highscores {
+  display: none;
+}
+
+.highscores header {
+  padding-top: 60px;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.hsbutton button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+}

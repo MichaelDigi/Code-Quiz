@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body> 
+<!-- Main Menu -->
+        <section class="homescreen">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">View Highscores</a></li>
+                    <li>Time: </li>
+                </ul>
+            </div>
+            </nav>
+
+            <header class="header">
+                <h1>Coding Quiz Challenge</h1>
+            </header>
+
+            <section class="instructions">
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        
+                <button class="startbtn">
+                    Start Quiz
+                </button>
+            </section>
+        </section>
+<!-- questions -->
+        <section class="questionsscreen">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">View Highscores</a></li>
+                    <li class="timer">Time: </li>
+                </ul>
+            </div>
+          </nav>
+
+            <section class="questionsli">
+            <p>Questions will go here</p>
+            </section>
+            <button class="button1" onclick="checkIfCorrect('1')">
+                1
+            </button>
+            <button class="button2" onclick="checkIfCorrect('2')">
+                2
+            </button>
+            <button class="button3" onclick="checkIfCorrect('3')">
+                3
+            </button>
+            <button class="button4" onclick="checkIfCorrect('4')">
+                4
+            </button>
+           <section class="answer"></section>
+
+        
+        </section> 
+<!-- game over screen -->
+        <section class="gameover">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">View Highscores</a></li>
+                    <li>Time: </li>
+                </ul>
+            </div>
+          </nav>
+
+        <header class="header">
+            <h2>All done!</h2>
+            <P>Your final score is _</P>
+        </header>
+
+        <form>
+            <input placeholder="Enter Initials" type="text">
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+        </section>
+<!-- Highscore page -->
+        <section class="highscores">
+            <header>
+                <h2>Highscores</h2>
+                <p></p>
+            </header>
+            <div class="hsbutton">
+                <button type="submit">
+                    Go back
+                </button>
+                <button type="submit">
+                    Close Highscores
+                </button>
+            </div>
+        </section>
+
+</body>
+</html>
