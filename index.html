@@ -60,8 +60,8 @@
 
         
         </section> 
-<!-- game over screen -->
-        <section class="gameover">
+<!-- end screen -->
+        <section class="endscreen">
             <nav class="navbar">
                 <ul>
                     <li><a href="#">View Highscores</a></li>
@@ -76,24 +76,28 @@
         </header>
 
         <form>
-            <input placeholder="Enter Initials" type="text">
-            <button type="submit">
+            <input placeholder="Enter Initials" type="text" class="enterinitals">
+            <button class="submitHS">
                 Submit
             </button>
         </form>
         </section>
 <!-- Highscore page -->
-        <section class="highscores">
-            <header>
-                <h2>Highscores</h2>
-                <p></p>
-            </header>
+        <section class="highscore">
+            <section class="hs">
+                <section>
+                    <ul class="hsnames"></ul>
+                <section class = "score"></section>
+            </section>
+        </section>
+
+
             <div class="hsbutton">
                 <button type="submit">
-                    Go back
+                    play again
                 </button>
                 <button type="submit">
-                    Close Highscores
+                    Clear Highscores
                 </button>
             </div>
         </section>
