@@ -228,7 +228,7 @@ function showHS() {
   showscore[0].innerHTML = "";
   for (i = 0; i < savescore.length; i++) {
     let playername = document.createElement("li");
-    playername.textContent = savescore[i].name + " - " + savescore[i].score;
+    playername.textContent = savescore[i].name + "  " + savescore[i].score;
     hsnames[0].appendChild(playername);
   }
 }
