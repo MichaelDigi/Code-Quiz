@@ -14,7 +14,6 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#">View Highscores</a></li>
-                    <li>Time: </li>
                 </ul>
             </div>
             </nav>
@@ -35,8 +34,7 @@
         <section class="questionsscreen">
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">View Highscores</a></li>
-                    <li class="timer">Time: </li>
+                    <section class="timer"> Time Left: </section>
                 </ul>
             </div>
           </nav>
@@ -44,16 +42,16 @@
             <section class="questionsli">
             <p>Questions will go here</p>
             </section>
-            <button class="button1" onclick="checkIfCorrect('1')">
+            <button class="button1 choice">
                 1
             </button>
-            <button class="button2" onclick="checkIfCorrect('2')">
+            <button class="button2 choice">
                 2
             </button>
-            <button class="button3" onclick="checkIfCorrect('3')">
+            <button class="button3 choice">
                 3
             </button>
-            <button class="button4" onclick="checkIfCorrect('4')">
+            <button class="button4 choice">
                 4
             </button>
            <section class="answer"></section>
@@ -65,14 +63,13 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#">View Highscores</a></li>
-                    <li>Time: </li>
                 </ul>
             </div>
           </nav>
 
         <header class="header">
             <h2>All done!</h2>
-            <P>Your final score is _</P>
+            <p id="score"></p>
         </header>
 
         <form>
@@ -87,20 +84,20 @@
             <section class="hs">
                 <section>
                     <ul class="hsnames"></ul>
-                <section class = "score"></section>
+                <section class = "showscore"></section>
             </section>
         </section>
 
 
             <div class="hsbutton">
-                <button type="submit">
+                <button class="playAgainBtn" onclick="playAgain()">
                     play again
                 </button>
-                <button type="submit">
+                <button class="clearHsBtn" onclick="clearScore()">
                     Clear Highscores
                 </button>
             </div>
         </section>
-
+        <script src="./assets/js/script.js"></script>
 </body>
 </html>

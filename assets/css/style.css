@@ -46,6 +46,7 @@ nav a {
   padding-right: 400px;
   padding-top: 100px;
   display: none;
+  
 }
 
 .endscreen {
@@ -77,7 +78,6 @@ button:hover {
   color: grey;
 }
 
-
 form {
   color: white;
   padding: 10px;
@@ -87,11 +87,12 @@ form {
   justify-content: center;
 }
 
-.highscores {
-  display: none;
+.highscore {
+ display: none;
+ justify-content: center;
 }
 
-.highscores header {
+.highscore header {
   padding-top: 60px;
   text-align: center;
   padding-left: 400px;
@@ -104,5 +105,13 @@ form {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  justify-content: center;
+}
+
+.timer {
+  text-align: center;
+}
+
+.hsbutton {
   justify-content: center;
 }
